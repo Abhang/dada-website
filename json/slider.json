@@ -1,0 +1,31 @@
+{
+"carousel": [
+    {
+      "title": "🤖 AI Optimizes Global Shipping Networks",
+      "content": "AI algorithms in 2025 are rerouting supply chains in real-time, cutting costs and delays amid volatile trade policies."
+    },
+    {
+      "title": "🌐 China’s Rare Earth Export Curbs Shake Supply Chains",
+      "content": "Geopolitical moves by China to limit rare earth exports are forcing tech firms to rethink AI hardware production in 2025."
+    },
+    {
+      "title": "🏭 Supply Chain Drones Go Autonomous with AI",
+      "content": "AI-driven drones are revolutionizing last-mile delivery, reducing human oversight and boosting efficiency in urban hubs."
+    },
+    {
+      "title": "🌍 AI Predicts Geopolitical Risks for Energy Supply",
+      "content": "New AI models are forecasting disruptions in oil and gas supply chains, helping firms navigate tensions in the Middle East."
+    },
+    {
+      "title": "📈 Indo-Pacific Trade Pact Boosts AI Supply Chains",
+      "content": "A 2025 trade deal in the Indo-Pacific is accelerating AI chip production, linking geopolitics and supply chain innovation."
+    }
+  ],
+"ticker": [
+    "🚚 AI-Powered Trucking Cuts Fuel Use by 15% in Europe",
+    "🌐 Russia’s Arctic Ports Challenge Global Shipping Routes",
+    "🤖 Supply Chain Bots Handle Record Volumes at Amazon",
+    "🏭 Taiwan’s AI Chip Boom Strains Rare Earth Supplies",
+    "🛡️ U.S. Sanctions Disrupt AI Software Supply Chains"
+  ]
+}
