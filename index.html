@@ -159,75 +159,7 @@
 
     <!-- Lazy-loaded sections -->
     <section class="py-5" id="features">
-      <div class="container px-5 my-5">
-        <div class="row gx-5">
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h2 class="fw-bolder mb-0">
-              Driving Transformation at the Intersection of Strategy & Operations
-            </h2>
-            <br />
-            <p class="fw mb-0">
-              Reach out to me if you would like to know more.
-            </p>
-            <br />
-            <a
-              class="btn btn-primary btn-lg px-4 me-sm-3"
-              href="https://meet.google.com/mpa-fajr-fyf"
-              target="_blank"
-              >Meet Now!</a
-            >
-          </div>
-
-          <div class="col-lg-8">
-            <div class="row gx-5 row-cols-1 row-cols-md-2">
-              <div class="col mb-5 h-100">
-                <div
-                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
-                >
-                  <i class="bi bi-gear"></i>
-                </div>
-                <h2 class="h5">Operations Strategy</h2>
-                <p class="mb-0">
-                  Optimizing global operations for efficiency and growth. Let's transform your business processes.
-                </p>
-              </div>
-              <div class="col mb-5 h-100">
-                <div
-                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
-                >
-                  <i class="bi bi-people"></i>
-                </div>
-                <h2 class="h5">Team Leadership</h2>
-                <p class="mb-0">
-                  Building diverse, high-performing teams that drive innovation and operational excellence.
-                </p>
-              </div>
-              <div class="col mb-5 mb-md-0 h-100">
-                <div
-                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
-                >
-                  <i class="bi bi-lightbulb"></i>
-                </div>
-                <h2 class="h5">Strategic Transformation</h2>
-                <p class="mb-0">
-                  Turning complex challenges into actionable strategies. Let's drive meaningful change in your organization.
-                </p>
-              </div>
-              <div class="col h-100">
-                <div
-                  class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
-                >
-                  <i class="bi bi-graph-up"></i>
-                </div>
-                <h2 class="h5">Cost Optimization & Efficiency</h2>
-                <p class="mb-0">
-                  Identifying opportunities for cost reduction while enhancing operational performance.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </section>
 
     <!-- <div
@@ -458,7 +390,7 @@
                   <div class="d-flex align-items-center">
                     <img
                       class="rounded-circle me-3"
-                      src="/assets/images/abhang.jpg"
+                      src="/assets/images/akshat.jpg"
                       alt="Author"
                       style="width: 50px; height: 50px; object-fit: cover;"
                     />
@@ -609,5 +541,16 @@
         });
       });
     </script> -->
+    <script>
+      // Hide preloader when page is fully loaded
+      window.addEventListener('load', function() {
+        document.getElementById('preloader').style.display = 'none';
+      });
+      
+      // Fallback: Hide preloader after 5 seconds even if page isn't fully loaded
+      setTimeout(function() {
+        document.getElementById('preloader').style.display = 'none';
+      }, 5000);
+    </script>
   </body>
 </html>
