@@ -22,20 +22,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-7L6J5SDNEE"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
 
-    gtag("config", "G-7L6J5SDNEE");
-  </script>
   <body class="d-flex flex-column h-100">
     <body>
       <div id="preloader">
@@ -251,7 +238,7 @@
       async function loadSliderData() {
         try {
           // Fetch the JSON file
-          const response = await fetch("../json/slider.json");
+          const response = await fetch("/json/slider.json");
           const data = await response.json();
 
           // Populate the News Carousel
@@ -301,7 +288,7 @@
                 Daily collection of views on operations strategy, leadership, organizational transformation, and more.
               </p>
               <p class="lead fw-bold text-muted mb-5">
-                Explore all the blogs <a href="../blog.html">here</a>
+                Explore all the blogs <a href="/blog.html">here</a>
               </p>
             </div>
           </div>
